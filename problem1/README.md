@@ -143,5 +143,3 @@ false
 2. **Đồng Bộ Thời Gian**: Cần sử dụng **NTP** nếu có chênh lệch thời gian giữa máy chủ và client.
 3. **Tối Ưu Hóa**: Có thể thay `deque` bằng **circular buffer** để tiết kiệm bộ nhớ.
 4. **Phân Tán**: Sử dụng **Redis** (hoặc các giải pháp tương tự ) để đồng bộ rate limit trong hệ thống phân tán.
-
-Giải pháp hiện tại hiệu quả nhưng cần cải tiến để đáp ứng yêu cầu phức tạp hơn.
